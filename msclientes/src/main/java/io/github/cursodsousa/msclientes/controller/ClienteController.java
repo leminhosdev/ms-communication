@@ -38,4 +38,11 @@ public class ClienteController {
         }
         return ResponseEntity.ok(cliente);
     }
+
+    @GetMapping("/ok")
+    public String ok(){
+        System.out.println("asad");
+        return "ok";
+
+    }
 }
